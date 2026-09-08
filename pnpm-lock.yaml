@@ -21,6 +21,15 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2
 
+  apps/testing:
+    dependencies:
+      '@exp-ds/ds':
+        specifier: workspace:*
+        version: link:../../packages/ds
+      vite:
+        specifier: ^8.2.2
+        version: 8.2.2
+
   packages/ds:
     dependencies:
       lit:

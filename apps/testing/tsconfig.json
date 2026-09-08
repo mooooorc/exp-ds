@@ -1,9 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "noEmit": true,
-    "experimentalDecorators": true,
-    "useDefineForClassFields": false
+    "noEmit": true
   },
   "include": ["src"]
 }

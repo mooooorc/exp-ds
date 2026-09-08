@@ -1,0 +1,13 @@
+{
+  "name": "@exp-ds/testing",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@exp-ds/ds": "workspace:*",
+    "vite": "^8.2.2"
+  }
+}
